@@ -1,13 +1,28 @@
+body{
+  margin:1px;
+}
 header {
-    padding: 30px;
+    padding: 31px;
     background-color: black;
     color: white;
     width: 100%;
     position: fixed;
     z-index: 1;
+    top:0;
 }
-header{
-	top:0;
+.wrapper{
+  margin-top: 80px;
+  width: 100%;
+  height: 100vh;
+}
+.mogo_left{
+  float: left;
+  width: 30%;
+  margin-left: 50px;
+}
+.mogo_right{
+  float: right;
+  width: 60%;
 }
 h4{
 	margin: 0;
@@ -21,51 +36,80 @@ ul li {
     margin-right: 20px;
 }
 ul li a{
-	padding: 10px;
+	padding: 20px;
 	text-transform: uppercase;
 	color: white;
+  text-decoration: none;
 }
 a:hover{
 	text-decoration: none;
 	color: red;
 }
-.wrapper{
-  margin-top: 80px;
-  width: 110%;
-  height: 90vh;
-}
-.row1{
-  margin-left: 0;
-}
-.row1 .col{
-  background-color: #c4c4c4;
-}
-.row2{
-	margin-left: 0;
-	margin-top: 50px;
-}
-.row2 .col h2{
-	padding: 40px;
-}
-.col h2{
-  padding: 20px 0;
-}
-.col{
-	background-color: #d6da39;
-}
-.col-md-5{
-	background-color: #d6da39;
-	white-space: 5px;
-}
-.col-md-5 h2{
-	padding: 40px;
-}
-.column {
+.container{
+  width: 100%;
   text-align: center;
-  background-color: #5cb965;
 
 }
-.column2 {
+.left_container{
+  float: left;
+  width: 30%;
   text-align: center;
-  background-color: #c4c4c4;
+  background-color: #4caf50;
+
+}
+.col_left{
+  background-color: #babec3;
+  height: 100px;
+  width: 200px;
+  margin: 50px;
+}
+.col_right_b{
+  background-color: #d6da39;
+  width: 80%;
+  height: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.right_container{
+  float: right;
+  width: 70%;
+  text-align: center;
+  background-color: #babec3;
+  position: relative;
+  height: 100%;
+}
+.red_sign1{
+  background-color: red;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 40px;
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
+.red_sign2{
+  background-color: red;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 40px;
+  position: absolute;
+  top: 42%;
+  left: 85px;
+}
+.red_sign3{
+  background-color: red;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 40px;
+  position: absolute;
+  top:42%;
+  right: 45%;
+}
+.col_right_s{
+  display: inline-block;
+  width: 37%;
+  height: 100px;
+  background-color: #d6da39;
+  color: white;
+  margin: 30px;
 }
